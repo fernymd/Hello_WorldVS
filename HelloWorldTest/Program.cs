@@ -11,6 +11,7 @@ namespace HelloWorldTest
     {
         static void Main(string[] args)
         {
+            // This is a git test program
             string Name = "";
 
             Console.Write("Please Enter your name : ");
