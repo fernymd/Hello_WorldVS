@@ -11,7 +11,11 @@ namespace HelloWorldTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string Name = "";
+
+            Console.Write("Please Enter your name : ");
+            Name = Console.ReadLine();
+            Console.WriteLine("Hello " + Name + "!");
             Console.ReadKey();
         }
     }
