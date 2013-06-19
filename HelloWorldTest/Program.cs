@@ -16,7 +16,7 @@ namespace HelloWorldTest
 
             Console.Write("Please Enter your name : ");
             Name = Console.ReadLine();
-            Console.WriteLine("Hello " + Name + "!");
+            Console.WriteLine(Name + " says hello to the world!");
             Console.ReadKey();
         }
     }
