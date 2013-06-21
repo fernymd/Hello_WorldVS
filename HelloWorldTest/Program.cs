@@ -12,11 +12,11 @@ namespace HelloWorldTest
         static void Main(string[] args)
         {
             // This is a git test program
-            string Name = "";
+            string Name = ""; //Name will receive the user input which will hopefully be the users name.
 
             Console.Write("Please Enter your name : ");
             Name = Console.ReadLine();
-            Console.WriteLine("Hello " + Name + "!");
+            Console.WriteLine(Name + " says hello to the world!");
             Console.ReadKey();
         }
     }
